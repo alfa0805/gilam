@@ -1,0 +1,10 @@
+@import "tailwindcss";
+*{
+    transition: all 0.4s;
+    scroll-behavior: smooth;
+}
+.why-bg{
+    background-image:url(./assets/why.bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}

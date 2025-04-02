@@ -1,0 +1,39 @@
+{
+    "header": {
+        "home": "Asosiy",
+        "Why Us": "Nega biz",
+        "services": "Xizmatlar",
+        "Comments": "Fikrlar",
+        "Faq": "Savollar",
+        "Contact": "Bog‘lanish"
+    },
+    "home": {
+        "title": "Gilam tozalash xizmati",
+        "text": "Biz Toshkentda 10 yildan beri professional gilam tozalash xizmatlarini taqdim etamiz, shuning uchun gilamlarni to‘g‘ri va sifatli tozalashni bilamiz."
+    },
+    "why": {
+        "title": "Nega bizni tanlashadi?",
+        "title1": "Tezkor gilam tozalash xizmati",
+        "title2": "Bizning tajribali jamoamiz",
+        "title3": "Siz uchun qulay vaqtda",
+        "text1": "Arizalar 24/7 qabul qilinadi. Agar sizga shoshilinch gilam tozalash kerak bo‘lsa, darhol yetib boramiz. Shunday bo‘lsa ham, sifat mukammal darajada qoladi.",
+        "text2": "Xodimlarimiz har bir jarayonni puxta bajarishadi: gilamlarni qabul qilish, tozalashga tayyorlash, to‘liq tozalash, quritish va yakuniy tekshiruv.",
+        "text3": "O‘zingiz uchun qulay vaqtni tanlang va biz bilan bog‘laning. Biz sizga samarali va sifatli natijani kafolatlaymiz.",
+        "b-title": "30 m² va undan katta maydonlar uchun 10% chegirma!",
+        "b-text": "Xizmatlarimizdan foydalaning va 30 m² va undan katta maydonlar uchun 10% chegirmaga ega bo‘ling! Tozalash jarayonini soddalashtiring va pok muhitda hayotdan zavqlaning.",
+        "number": "998-95-000-30-80"
+   },
+   "services": {
+    "title": "Xizmat turlari",
+    "card1": "Biz faqat gilamlarni tozalamaymiz",
+    "card2": "Barcha turdagi mebellar",
+    "card3": "Barcha turdagi pardalar",
+    "card4": "Barcha turdagi pardalar",
+    "card5": "Barcha turdagi ko‘rpa-to‘shaklar",
+    "title2": "Biz erishayotgan natijalarni ko‘ring",
+    "title3": "Ish joylaridagi loyihalar.",
+    "title4": "Jarayon qanday ishlaydi",
+    "after": "Hozir",
+    "before": "Oldin"
+  }
+}
