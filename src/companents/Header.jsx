@@ -28,17 +28,17 @@ function Header() {
                 </a>
             </li>
             <li className="border-b-2 mb-0 px-3 border-white hover:border-b-2 hover:border-[#FEB640] hover:text-[#FEB640]">
-                <a href="#" className="">
+                <a href="#services" className="">
                     <p className="text-lg font-bold ">{t("header.services")}</p>
                 </a>
             </li>
             <li className="border-b-2 mb-0 px-3 border-white hover:border-b-2 hover:border-[#FEB640] hover:text-[#FEB640]">
-                <a href="#" className="">
+                <a href="#comments" className="">
                     <p className="text-lg font-bold ">{t("header.Comments")}</p>
                 </a>
             </li>
             <li className="border-b-2 mb-0 px-3 border-white hover:border-b-2 hover:border-[#FEB640] hover:text-[#FEB640]">
-                <a href="#" className="">
+                <a href="#faq" className="">
                     <p className="text-lg font-bold font-archivo">{t("header.Faq")}</p>
                 </a>
             </li>

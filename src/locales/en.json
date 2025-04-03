@@ -34,6 +34,60 @@
         "title3":"Projects from the workplace.",
         "title4":"How the Process Works",
         "after":"Now",
-        "before":"Before"
-   }
+        "before":"Before",
+        "works1":"Call Us",
+        "works2":"Place an Order",
+        "works3":"Contract",
+        "works4":"Carpet Pickup",
+        "works5":"Cleaning",
+        "works6":"Drying",
+        "works7":"Delivery",
+        "text1":"Call or leave a request on the website (we'll clarify the details and provide the price).",
+        "text2":"Order carpet cleaning at home or in the factory.",
+        "text3":"We will sign a formal contract and start the work.",
+        "text4":"We will pick up your carpets for free.",
+        "text5":"We clean and wash carpets using German equipment.",
+        "text6":"We dry carpets without deformation or odor.",
+        "text7":"We will deliver your carpets at a convenient time for you.",
+        "text8":"The best guarantee is our reputation, which we value! Trust us!",
+        "btn":"Order Now",
+        "title5":"Work Process"
+   },
+   "comments": {
+          "text1": "I gave my carpets for washing and I am very satisfied with the result. The carpets returned completely clean! The service is fast and high-quality. Thank you!",
+          "text2": "My carpets were very large, and it was difficult to clean them. After using this service, I was very happy with their cleanliness. You are doing a great job!",
+          "text3": "My carpets were dusty and had an odor. I didn't believe it, but after cleaning, they looked like new! Excellent service and great customer care.",
+          "text4": "Attention was paid to every little detail. The carpets came back clean, soft, and like new. The quality and efficiency of the service amazed me!"
+  },
+     "faqs": [
+       {
+         "question": "How long does it take to wash carpets?",
+         "answer": "The carpet washing process usually takes 3-5 days. During this time, carpets undergo deep cleaning, drying, and preparation for delivery."
+       },
+       {
+         "question": "How is the price of your services determined?",
+         "answer": "The price is determined based on the size, material, and level of contamination of the carpet."
+       },
+       {
+         "question": "Will my carpet be damaged?",
+         "answer": "No, we use only safe and high-quality cleaning products."
+       },
+       {
+         "question": "What products do you use in the cleaning process?",
+         "answer": "We use eco-friendly and hypoallergenic cleaning products."
+       },
+       {
+         "question": "Do you offer carpet pickup and delivery services?",
+         "answer": "Yes, we offer free carpet pickup and delivery services."
+       },
+       {
+         "question": "Can any carpet be washed?",
+         "answer": "Yes, but special materials require specific washing methods."
+       }
+     ],
+     "contact":{
+          "title":"Leave your information",
+          "loading":"Is being submitted",
+          "btn":"Submit"
+     }
 }

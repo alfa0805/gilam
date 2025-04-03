@@ -1,10 +1,50 @@
 @import "tailwindcss";
 *{
-    transition: all 0.4s;
+    transition: all 0.1s;
     scroll-behavior: smooth;
 }
 .why-bg{
     background-image:url(./assets/why.bg.png);
     background-repeat: no-repeat;
     background-size:cover;
+}
+/* faqbacround */
+
+.faq {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    z-index: 2;
+}
+
+.faq::before,
+.faq::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    background: linear-gradient(120deg, #edab1d,#edab1d, #ceaa34, #e2d264,#0ed2c2 ,#0ed2c2,#0ed2c2, #e2d264, #ceaa34, #edab1d,#edab1d);
+    background-size: 200%;
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+
+.faq::after {
+    filter: blur(10px);
+    z-index: -2;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
 }

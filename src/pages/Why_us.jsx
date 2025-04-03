@@ -14,7 +14,7 @@ function Why_us() {
        useEffect(() => {
             AOS.init({
               duration: 1000, // Animatsiya davomiyligi (ms)
-              once: true, // Faqat bir marta animatsiya qilish
+              once: false, // Faqat bir marta animatsiya qilish
             });
           }, []);
   return (

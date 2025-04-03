@@ -34,6 +34,63 @@
     "title3": "Ish joylaridagi loyihalar.",
     "title4": "Jarayon qanday ishlaydi",
     "after": "Hozir",
-    "before": "Oldin"
-  }
+    "before": "Oldin",
+    "works1": "Bizga qo'ng'iroq qiling",
+    "works2": "Buyurtma bering",
+    "works3": "Shartnoma",
+    "works4": "Gilamlarni olib ketish",
+    "works5": "Tozalash",
+    "works6": "Quritish",
+    "works7": "Yetkazib berish",
+    "text1": "Bizga qo‘ng‘iroq qiling yoki veb-saytda so‘rov qoldiring (biz tafsilotlarni aniqlab, narxni aytamiz).",
+    "text2": "Gilamni uyda yoki fabrikada tozalashga buyurtma bering.",
+    "text3": "Biz rasmiy shartnoma tuzib, ishni boshlaymiz.",
+    "text4": "Gilamlaringizni bepul olib ketamiz.",
+    "text5": "Biz gilamlarni nemis uskunalaridan foydalanib tozalaymiz va yuvamiz.",
+    "text6": "Gilamlarni deformatsiyasiz va hidsiz quritamiz.",
+    "text7": "Gilamlaringizni siz uchun qulay vaqtda yetkazib beramiz.",
+    "text8": "Eng yaxshi kafolat - bu bizning obro‘-e’tiborimiz! Bizga ishoning!",
+    "btn": "Buyurtma berish",
+    "title5": "Ish jarayoni"
+  },
+  "comments":{
+    "text1":"Men gilamlarimni yuvishga berdim va natijadan juda mamnunman.Gilamlar butunlay toza qaytdi!Xizmatlar tez va sifatli.Rahmat!",
+    "text2":"Mening gilamalarim juda katta edi,va uarni tozalash qiyin edi,Ushbu xizmatdan foydalanganimdan keyin,ularning tozaligi bilan juda xursand boldim.Siz juda yaxshi ish qilasiz!",
+    "text3":"Gilamlarim chang va hid bor edi.Men ishonmay,ularga tozalashdan keyin yangi holatga qaytdi!Ajoyib hizmat va mijozlarga yaxshi xizmat korsatish",
+    "text4":"Har bir mayda detalga etibor berilgan.Gilamlar toza,yumuq va yangidek bolib qaytdi.Xizmatning sifati va samradorligi meni hayratda qoldirdi"
+  },
+  "faq":{
+    "title1":"Gilamlarni yuvish qancha vaqt oladi?",
+    "title2":"Sizning xizmatlaringiz narxi qanday aniqlanadi?",
+    "title3":"Gilamlarimga zarar yetkazilmaydimi?",
+    "title4":"Yuvish jarayonida qanday vositalardan foydalanasiz?",
+    "title5":"Gilamlarni olib ketish va yetkazib berish xizmati bormi?",
+    "title6":"Har qanday gilamni yuvish mumkinmi?"
+  },
+  "faqs": [
+    {
+      "question": "Gilamlarni yuvish qancha vaqt oladi?",
+      "answer": "Gilamlarni yuvish jarayoni odatda 3-5 kun davom etadi. Bu vaqt ichida gilamlar chuqur tozalanadi, quritiladi va yetkazib berish tayyorlanadi."
+    },
+    {
+      "question": "Sizning xizmatlaringiz narxi qanday aniqlanadi?",
+      "answer": "Narx gilamning o‘lchami, materiali va ifloslik darajasiga qarab belgilanadi."
+    },
+    {
+      "question": "Gilamlarimga zarar yetkazilmaydimi?",
+      "answer": "Yo‘q, biz faqat xavfsiz va sifatli tozalash vositalaridan foydalanamiz."
+    },
+    {
+      "question": "Yuvish jarayonida qanday vositalardan foydalanasiz?",
+      "answer": "Biz ekologik toza va allergiyaga qarshi vositalardan foydalanamiz."
+    },
+    {
+      "question": "Gilamlarni olib ketish va yetkazib berish xizmati bormi?",
+      "answer": "Ha, biz gilamlarni bepul olib ketish va yetkazib berish xizmatini taklif qilamiz."
+    },
+    {
+      "question": "Har qanday gilamni yuvish mumkinmi?",
+      "answer": "Ha, lekin maxsus materiallardan tayyorlangan gilamlar uchun alohida yuvish usullari mavjud."
+    }
+  ]
 }
