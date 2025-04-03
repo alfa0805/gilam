@@ -11,8 +11,8 @@ function Home() {
 
     useEffect(() => {
       AOS.init({
-        duration: 1000, // Animatsiya davomiyligi (ms)
-        once: false, // Faqat bir marta animatsiya qilish
+        duration: 1000, 
+        once: false, 
       });
     }, []);
   return (
