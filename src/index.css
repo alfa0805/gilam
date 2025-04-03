@@ -8,6 +8,13 @@
     background-repeat: no-repeat;
     background-size:cover;
 }
+@media screen and (max-width:770px) {
+    .homebg{
+        background-image:url(./assets/gilam.png);
+        background-size: cover;
+    }
+}
+
 /* faqbacround */
 
 .faq {

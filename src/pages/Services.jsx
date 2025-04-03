@@ -38,63 +38,68 @@ function Services() {
   return (
     <div>
       <div id="services" className="max-w-[1180px] mx-auto max-[800px]:px-5">
-        <h1 data-aos="flip-up" className="text-gray-700 text-5xl font-bold pb-1">{t("services.title")}</h1>
+        <h1 data-aos="flip-up" className="text-gray-700 text-5xl font-bold pb-1 max-[770px]:text-4xl max-[570px]:text-3xl">{t("services.title")}</h1>
         {/* card */}
-        <div  className="py-[60px] flex items-center justify-between flex-wrap gap-7 px-[50px]">
-            <div data-aos="fade-right" className="w-[450px] h-[430px] bg-gray-100 rounded-2xl flex flex-col items-center
+        <div  className="py-[60px] flex items-center justify-between max-[990px]:justify-center flex-wrap gap-7 px-[50px] max-[770px]:px-5">
+            
+            <div data-aos="fade-right" className="w-[450px] h-[430px] max-[770px]:w-full  max-[770px]:h-full max-[770px]:pb-5 bg-gray-100 rounded-2xl flex flex-col items-center
                     gap-5 shadow-md">
                 <div className="w-full h-[207px]">
                     <img src={services1} alt={t("services.card1")} className="w-full h-full"/>
                 </div>
-                <h1 className="text-[#096b86] text-4xl text-center font-bold pb-1">{t("services.card1")}</h1>
+                <h1 className="text-[#096b86] text-4xl max-[770px]:text-3xl text-center font-bold pb-1">{t("services.card1")}</h1>
                 <div className="w-[171px] h-[50px]">
                     <button className="z-40 cursor-pointer border-2 border-[#f6a627] hover:bg-amber-50 text-white hover:text-[#f6a627] px-8 py-[8px] bg-[#f6a627] rounded-4xl text-xl font-bold">
                         <a href="#aloqa" className="">{t("header.Contact")}</a>
                     </button>
                 </div>
             </div>
-            <div data-aos="fade-right" className="w-[450px] h-[430px] bg-gray-100 rounded-2xl flex flex-col items-center
+            
+            <div data-aos="fade-right" className="w-[450px] h-[430px] max-[770px]:w-full  max-[770px]:h-full max-[770px]:pb-5 bg-gray-100 rounded-2xl flex flex-col items-center
                     gap-5 shadow-md">
                 <div className="w-full h-[207px]">
                     <img src={services2} alt={t("services.card2")} className="w-full h-full"/>
                 </div>
-                <h1 className="text-[#096b86] text-4xl text-center font-bold pb-1">{t("services.card2")}</h1>
+                <h1 className="text-[#096b86] text-4xl max-[770px]:text-3xl text-center font-bold pb-1">{t("services.card2")}</h1>
                 <div className="w-[171px] h-[50px]">
                     <button className="z-40 cursor-pointer border-2 border-[#f6a627] hover:bg-amber-50 text-white hover:text-[#f6a627] px-8 py-[8px] bg-[#f6a627] rounded-4xl text-xl font-bold">
                         <a href="#aloqa" className="">{t("header.Contact")}</a>
                     </button>
                 </div>
             </div>
-            <div data-aos="fade-right" className="w-[450px] h-[430px] bg-gray-100 rounded-2xl flex flex-col items-center
+
+            <div data-aos="fade-right" className="w-[450px] h-[430px] max-[770px]:w-full  max-[770px]:h-full max-[770px]:pb-5 bg-gray-100 rounded-2xl flex flex-col items-center
                     gap-5 shadow-md">
                 <div className="w-full h-[207px]">
                     <img src={services3} alt={t("services.card3")} className="w-full h-full"/>
                 </div>
-                <h1 className="text-[#096b86] text-4xl text-center font-bold pb-1">{t("services.card3")}</h1>
+                <h1 className="text-[#096b86] text-4xl max-[770px]:text-3xl text-center font-bold pb-1">{t("services.card3")}</h1>
                 <div className="w-[171px] h-[50px]">
                     <button className="z-40 cursor-pointer border-2 border-[#f6a627] hover:bg-amber-50 text-white hover:text-[#f6a627] px-8 py-[8px] bg-[#f6a627] rounded-4xl text-xl font-bold">
                         <a href="#aloqa" className="">{t("header.Contact")}</a>
                     </button>
                 </div>
             </div>
-            <div data-aos="fade-right" className="w-[450px] h-[430px] bg-gray-100 rounded-2xl flex flex-col items-center
+
+            <div data-aos="fade-right" className="w-[450px] h-[430px] max-[770px]:w-full  max-[770px]:h-full max-[770px]:pb-5 bg-gray-100 rounded-2xl flex flex-col items-center
                     gap-5 shadow-md">
                 <div className="w-full h-[207px]">
                     <img src={services4} alt={t("services.card4")} className="w-full h-full"/>
                 </div>
-                <h1 className="text-[#096b86] text-4xl text-center font-bold pb-1">{t("services.card4")}</h1>
+                <h1 className="text-[#096b86] text-4xl max-[770px]:text-3xl text-center font-bold pb-1">{t("services.card4")}</h1>
                 <div className="w-[171px] h-[50px]">
                     <button className="z-40 cursor-pointer border-2 border-[#f6a627] hover:bg-amber-50 text-white hover:text-[#f6a627] px-8 py-[8px] bg-[#f6a627] rounded-4xl text-xl font-bold">
                         <a href="#aloqa" className="">{t("header.Contact")}</a>
                     </button>
                 </div>
             </div>
-            <div data-aos="fade-right" className="w-[450px] h-[430px] bg-gray-100 rounded-2xl flex flex-col items-center
+
+            <div data-aos="fade-right" className="w-[450px] h-[430px] max-[770px]:w-full  max-[770px]:h-full max-[770px]:pb-5 bg-gray-100 rounded-2xl flex flex-col items-center
                     gap-5 shadow-md">
                 <div className="w-full h-[207px]">
                     <img src={services5} alt={t("services.card1")} className="w-full h-full"/>
                 </div>
-                <h1 className="text-[#096b86] text-4xl text-center font-bold pb-1">{t("services.card5")}</h1>
+                <h1 className="text-[#096b86] text-4xl max-[770px]:text-3xl text-center font-bold pb-1">{t("services.card5")}</h1>
                 <div className="w-[171px] h-[50px]">
                     <button className="z-40 cursor-pointer border-2 border-[#f6a627] hover:bg-amber-50 text-white hover:text-[#f6a627] px-8 py-[8px] bg-[#f6a627] rounded-4xl text-xl font-bold">
                         <a href="#aloqa" className="">{t("header.Contact")}</a>
@@ -104,8 +109,8 @@ function Services() {
         </div>
         {/* befor after img */}
         <div className="flex items-center flex-col gap-5">
-            <h1 data-aos="flip-up" className="text-gray-700 text-5xl text-center font-bold pb-1">{t("services.title2")}</h1>
-            <div className="w-[70%] h-[350px] relative flex items-center justify-center">
+            <h1 data-aos="flip-up" className="text-gray-700 text-5xl  max-[770px]:text-4xl max-[570px]:text-3xl text-center font-bold pb-1">{t("services.title2")}</h1>
+            <div className="w-[70%] h-[350px] max-[770px]:w-[100%] relative flex items-center justify-center">
                 <div className="w-[200px] h-[50px]">
                     <button onClick={menyu} 
                         className="text-white text-xl font-bold w-[200px] h-[50px] text-center 
@@ -124,13 +129,13 @@ function Services() {
         </div>
         {/* Proect videolari */}
         <div className="px-10">
-            <h1 data-aos="flip-up" className="text-gray-700 py-[70px] text-5xl text-center font-bold">{t("services.title3")}</h1>
+            <h1 data-aos="flip-up" className="text-gray-700 py-[70px] text-5xl  max-[770px]:text-4xl max-[570px]:text-3xl text-center font-bold">{t("services.title3")}</h1>
             <CarSlider/>
         </div>
         {/* ish jarayoni */}
         <div className="px-10">
-            <h1 data-aos="flip-up" className="text-gray-700 py-[70px] text-5xl text-center font-bold">{t("services.title4")}</h1>
-            <div data-aos="zoom-in" className="grid grid-cols-4 gap-8 pb-[50px]">
+            <h1 data-aos="flip-up" className="text-gray-700 py-[70px] max-[770px]:py-[25px] text-5xl  max-[770px]:text-4xl max-[570px]:text-3xl text-center font-bold">{t("services.title4")}</h1>
+            <div data-aos="zoom-in" className="grid grid-cols-4 max-[990px]:grid-cols-3 max-[770px]:grid-cols-2 max-[550px]:grid-cols-1 gap-8 pb-[50px] max-[770px]:pb-[25px]">
                 <div className="w-full h-[160px] rounded-md shadow-lg bg-gray-100 p-5">
                     <div className="flex items-center justify-center gap-1">
                         <BiSolidPhoneCall className="text-5xl text-[#08bbc2]"/>
@@ -200,7 +205,7 @@ function Services() {
             </div>
         </div>
         <div className="">
-            <h1 data-aos="flip-up" className="text-gray-700 py-[70px] text-5xl font-bold">{t("services.title5")}</h1>
+            <h1 data-aos="flip-up" className="text-gray-700 py-[70px] max-[770px]:py-[25px] text-5xl  max-[770px]:text-4xl max-[570px]:text-3xl font-bold">{t("services.title5")}</h1>
             <div className="grid grid-cols-3 gap-5 w-full h-full max-[770px]:grid-cols-1">
                 <div className="w-full h-[570px] rounded-xl shadow-md relative overflow-hidden group">
                     <img src={Damas} alt="damas" className="w-full h-full object-cover rounded-xl transition-transform duration-100 group-hover:scale-[1.05] " />

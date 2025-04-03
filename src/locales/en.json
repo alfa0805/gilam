@@ -88,6 +88,7 @@
      "contact":{
           "title":"Leave your information",
           "loading":"Is being submitted",
-          "btn":"Submit"
+          "btn":"Submit",
+          "input":"Your Name"
      }
 }

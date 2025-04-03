@@ -31,8 +31,8 @@ function Comments() {
 
   return (
     <div id="comments" className="max-w-[1180px] mx-auto">
-        <h1 data-aos="flip-up" className="text-gray-700 text-5xl text-center py-[30px] font-bold pb-5">{t("header.Comments")}</h1>
-        <div className="relative w-full mx-auto">
+        <h1 data-aos="flip-up" className="text-gray-700 text-5xl max-[770px]:text-4xl max-[570px]:text-3xl max-[770px]:py-[25px] text-center py-[30px] font-bold pb-5">{t("header.Comments")}</h1>
+        <div className="relative w-full mx-auto max-[770px]:px-5">
         <Swiper
             modules={[Autoplay]}
             loop={true} // Slider tugamaydigan bo'lsin
@@ -45,6 +45,20 @@ function Comments() {
                 disableOnInteraction: false,
                 // pauseOnMouseEnter: true, // Hover bo'lganda ham to'xtamasin
             }}
+            breakpoints={{
+                990: {
+                  slidesPerView: 3,
+                },
+                770: {
+                  slidesPerView: 2,
+                },
+                570: {
+                  slidesPerView: 1,
+                },
+                100: {
+                  slidesPerView: 1,
+                },
+              }}
             className="w-full gap-5"
         >
           <SwiperSlide>

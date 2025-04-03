@@ -33,11 +33,17 @@ export default function CarSlider() {
         onSwiper={(swiper) => (swiperRef.current = swiper)}
         onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
         breakpoints={{
-          1180: {
+          990: {
             slidesPerView: 4,
           },
-          601: {
+          770: {
             slidesPerView: 3,
+          },
+          570: {
+            slidesPerView: 2,
+          },
+          100: {
+            slidesPerView: 1,
           },
         }}
         className="w-full"

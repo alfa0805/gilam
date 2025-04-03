@@ -57,14 +57,14 @@ function Contact() {
         setLoading(false);
       };
   return (
-    <div id="aloqa" className="max-w-[1180px] mx-auto mt-[60px] rounded-xl h-[500px] faq flex items-center justify-around">
-        <div className="rounded-lg w-[400px] h-[400px] bg-white p-5 shadow-lg">
-                  <h2 className="text-[#03424c] text-5xl font-bold mb-[40px]">{t("contact.title")}</h2>
+    <div id="aloqa" className="max-w-[1180px] mx-auto mt-[60px] max-[770px]:mt-[25px] rounded-xl h-[500px] faq flex items-center justify-around">
+        <div className="rounded-lg w-[400px] max-[550px]:w-[300px] h-[400px] max-[770px]:h-[370px] bg-white p-5 shadow-lg">
+                  <h2 className="text-[#03424c] text-5xl max-[770px]:text-4xl max-[570px]:text-3xl font-bold mb-[40px]">{t("contact.title")}</h2>
                   <form onSubmit={handleSubmit} className="space-y-4">
                     <input
                       type="text"
                       name="name"
-                      placeholder="Your Name"
+                      placeholder={t("contact.input")}
                       value={formData.name}
                       onChange={handleChange}
                       required
@@ -91,10 +91,10 @@ function Contact() {
                     >
                       {loading ? `${t("contact.loading")}`:`${t("contact.btn")}`}
                     </button>
-                    {/* {success && <p className="text-green-400 text-center mt-2">✅ Message sent successfully!</p>} */}
+                    {success && <p className="text-green-400 text-center mt-2">✅ Message sent successfully!</p>}
                   </form>
         </div>
-        <div className="w-[500px] h-[386px] border-b-2">
+        <div className="w-[500px] h-[386px] border-b-2 max-[990px]:hidden">
             <img src={Gilambg} alt="" className="w-full h-full" />
         </div>
     </div>

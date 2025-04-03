@@ -17,9 +17,9 @@ function FAQ() {
     };
 
     return (
-        <div className="max-w-[1180px] mx-auto flex items-start justify-between pt-5 border-t-2 mt-5">
-            <h1 className="text-gray-700 text-5xl font-bold pb-5">{t("header.Faq")}</h1>
-            <div className="w-3xl">
+        <div id="faq" className="max-w-[1180px] mx-auto flex px-5 items-start justify-between max-[770px]:flex-col pt-5 border-t-2 mt-5">
+            <h1 className="text-gray-700 text-5xl max-[770px]:text-4xl max-[570px]:text-3xl max-[770px]:py-[25px] font-bold pb-5">{t("header.Faq")}</h1>
+            <div className="w-3xl max-[770px]:w-full">
                 {t("faqs", { returnObjects: true }).map((faq, index) => (
                     <div key={index} className={`w-full border border-[#eab926] rounded-md px-5 transition-all duration-300 ${
                         openIndex === index ? "my-4 shadow-lg" : ""

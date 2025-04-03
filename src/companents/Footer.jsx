@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png"
 
 function Footer() {
   return (
-    <div className="max-w-[1180px] h-[290px] p-[120px] pt-[70px] mx-auto flex items-center justify-start gap-[70px]">
+    <div className="max-w-[1180px] h-[290px] max-[770px]:h-[220px] p-[120px] max-[770px]:p-[30px] pt-[70px] mx-auto flex items-center justify-start max-[770px]:items-start max-[770px]:justify-start max-[770px]:flex-col max-[770px]:gap-5 gap-[70px]">
         <a href="#home" className="">
             <div className="w-[140px] h-[36px] ml-[23px] mt-1">
                 <img src={Logo} alt="logo" className="w-full h-full" />

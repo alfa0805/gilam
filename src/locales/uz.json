@@ -59,14 +59,6 @@
     "text3":"Gilamlarim chang va hid bor edi.Men ishonmay,ularga tozalashdan keyin yangi holatga qaytdi!Ajoyib hizmat va mijozlarga yaxshi xizmat korsatish",
     "text4":"Har bir mayda detalga etibor berilgan.Gilamlar toza,yumuq va yangidek bolib qaytdi.Xizmatning sifati va samradorligi meni hayratda qoldirdi"
   },
-  "faq":{
-    "title1":"Gilamlarni yuvish qancha vaqt oladi?",
-    "title2":"Sizning xizmatlaringiz narxi qanday aniqlanadi?",
-    "title3":"Gilamlarimga zarar yetkazilmaydimi?",
-    "title4":"Yuvish jarayonida qanday vositalardan foydalanasiz?",
-    "title5":"Gilamlarni olib ketish va yetkazib berish xizmati bormi?",
-    "title6":"Har qanday gilamni yuvish mumkinmi?"
-  },
   "faqs": [
     {
       "question": "Gilamlarni yuvish qancha vaqt oladi?",
@@ -92,5 +84,11 @@
       "question": "Har qanday gilamni yuvish mumkinmi?",
       "answer": "Ha, lekin maxsus materiallardan tayyorlangan gilamlar uchun alohida yuvish usullari mavjud."
     }
-  ]
+  ],
+  "contact": {
+    "title": "Ma'lumotlaringizni qoldiring",
+    "loading": "Yuborilmoqda",
+    "btn": "Yuborish",
+    "input": "Ismingiz"
+  }
 }
