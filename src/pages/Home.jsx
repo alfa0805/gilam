@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
-import { useTranslation } from 'react-i18next'
+import React, { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import i18n from '../i18n'
-import Home_img from "../assets/home.img.png"
-import Home_bg from "../assets/home.bg.png"
+import Home_img from "../assets/home.img.png";
+import Home_bg from "../assets/home.bg.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

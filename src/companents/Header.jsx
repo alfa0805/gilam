@@ -3,6 +3,7 @@ import Logo from "../assets/logo.png";
 import i18n from "../i18n";
 import { HiMenu } from "react-icons/hi";
 import { useState } from "react";
+import { RiCloseCircleLine } from "react-icons/ri";
 
 function Header() {
     const {t,i18n} =useTranslation()
@@ -68,29 +69,44 @@ function Header() {
         modal?
         <div className="w-[250px] h-[380px] rounded-lg shadow-md absolute right-0 bg-white mt-1 flex items-center flex-col">
           <ul className="flex pt-7 flex-col items-center justify-center font-archivo gap-5">
+            <div className=" absolute top-2 right-5">
+                <button onClick={()=>menyu(false)}>
+                  <RiCloseCircleLine  className="text-amber-500 text-3xl"/>
+                </button>
+            </div>
             <li className="border-b-2 mb-0 px-3 border-white hover:border-b-2 hover:border-[#FEB640] hover:text-[#FEB640]">
                 <a href="#home" className="">
-                    <p className="text-lg font-bold ">{t("header.home")}</p>
+                    <button onClick={()=>menyu(false)}>
+                      <p className="text-lg font-bold ">{t("header.home")}</p>
+                    </button>
                 </a>
             </li>
             <li className="border-b-2 mb-0 px-3 border-white hover:border-b-2 hover:border-[#FEB640] hover:text-[#FEB640]">
                 <a href="#Why_us" className="">
+                  <button onClick={()=>menyu(false)}>
                     <p className="text-lg font-bold ">{t("header.Why Us")}</p>
+                  </button>
                 </a>
             </li>
             <li className="border-b-2 mb-0 px-3 border-white hover:border-b-2 hover:border-[#FEB640] hover:text-[#FEB640]">
                 <a href="#services" className="">
+                  <button onClick={()=>menyu(false)}>
                     <p className="text-lg font-bold ">{t("header.services")}</p>
+                  </button>
                 </a>
             </li>
             <li className="border-b-2 mb-0 px-3 border-white hover:border-b-2 hover:border-[#FEB640] hover:text-[#FEB640]">
                 <a href="#comments" className="">
+                  <button onClick={()=>menyu(false)}>
                     <p className="text-lg font-bold ">{t("header.Comments")}</p>
+                  </button>
                 </a>
             </li>
             <li className="border-b-2 mb-0 px-3 border-white hover:border-b-2 hover:border-[#FEB640] hover:text-[#FEB640]">
                 <a href="#faq" className="">
+                  <button onClick={()=>menyu(false)}>
                     <p className="text-lg font-bold font-archivo">{t("header.Faq")}</p>
+                  </button>
                 </a>
             </li>
           </ul>
