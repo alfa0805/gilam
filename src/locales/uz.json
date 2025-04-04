@@ -89,6 +89,7 @@
     "title": "Ma'lumotlaringizni qoldiring",
     "loading": "Yuborilmoqda",
     "btn": "Yuborish",
-    "input": "Ismingiz"
+    "input": "Ismingiz",
+    "send": "✅ Xabar muvaffaqiyatli yuborildi!"
   }
 }

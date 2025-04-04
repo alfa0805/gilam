@@ -57,9 +57,9 @@ function Contact() {
         setLoading(false);
       };
   return (
-    <div id="aloqa" className="max-w-[1180px] mx-auto mt-[60px] max-[770px]:mt-[25px] rounded-xl h-[500px] faq flex items-center justify-around">
+    <div id="aloqa" className="max-w-[1180px] relative mx-auto mt-[60px] max-[770px]:mt-[25px] rounded-xl h-[500px] faq flex items-center justify-around">
         <div className="rounded-lg w-[400px] max-[550px]:w-[300px] h-[400px] max-[770px]:h-[370px] bg-white p-5 shadow-lg">
-                  <h2 className="text-[#03424c] text-5xl max-[770px]:text-4xl max-[570px]:text-3xl font-bold mb-[40px]">{t("contact.title")}</h2>
+                  <h2 className="text-[#03424c] text-4xl max-[770px]:text-3xl max-[570px]:text-3xl font-bold mb-[40px]">{t("contact.title")}</h2>
                   <form onSubmit={handleSubmit} className="space-y-4">
                     <input
                       type="text"
@@ -91,7 +91,14 @@ function Contact() {
                     >
                       {loading ? `${t("contact.loading")}`:`${t("contact.btn")}`}
                     </button>
-                    {success && <p className="text-green-400 text-center mt-2">✅ Message sent successfully!</p>}
+                    {success  && 
+                      <p className="w-full h-full bg-[#00000081] text-center absolute top-0 left-0 flex items-center justify-center">
+                        <span className="w-[500px] max-[770px]:w-[350px] max-[770px]:text-2xl max-[550px]:w-[280px] max-[550px]:h-[50px] max-[550px]:py-[10px]
+                           max-[550px]:text-xl h-[80px] py-5 rounded-md bg-white text-amber-500 text-3xl">
+                            {t("contact.send")}
+                            </span>
+                      </p> 
+                    }
                   </form>
         </div>
         <div className="w-[500px] h-[386px] border-b-2 max-[990px]:hidden">
