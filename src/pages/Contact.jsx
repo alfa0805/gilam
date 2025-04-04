@@ -94,7 +94,7 @@ function Contact() {
                     {success  && 
                       <p className="w-full h-full bg-[#00000081] text-center absolute top-0 left-0 flex items-center justify-center">
                         <span className="w-[500px] max-[770px]:w-[350px] max-[770px]:text-2xl max-[550px]:w-[290px]  max-[550px]:py-[10px]
-                           max-[550px]:text-xl h-[80px] font-medium py-5 rounded-md bg-white text-amber-500 text-3xl">
+                           max-[550px]:text-xl  font-medium py-5 rounded-md bg-white text-amber-500 text-3xl">
                             {t("contact.send")}
                             </span>
                       </p> 
