@@ -194,7 +194,7 @@ function Services() {
 
                 <div className="w-full h-[160px] rounded-md shadow-lg bg-gray-100 p-5">
                     <div className="flex items-center justify-center gap-1">
-                        <div className="w-[120px] h-[40px]">
+                        <div className="w-[150px] h-[40px] ">
                             <button className="w-full h-full z-40 cursor-pointer border-2 border-[#f6a627] hover:bg-amber-50 text-white hover:text-[#f6a627] bg-[#f6a627] rounded-xl text-md font-bold">
                                 <a href="#aloqa" className="">{t("services.btn")}</a>
                             </button>
