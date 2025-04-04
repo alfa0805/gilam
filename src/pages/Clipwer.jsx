@@ -22,7 +22,7 @@ export default function CarSlider() {
   const [activeIndex, setActiveIndex] = useState(1);
 
   return (
-    <div className="relative w-full mx-auto">
+    <div className="relative w-full mx-auto max-[770px]:px-5">
       <Swiper
         modules={[Autoplay, Navigation]}
         loop={true}
@@ -50,7 +50,7 @@ export default function CarSlider() {
       >
         {[Video1,Video2,Video3,Video4,Video5,Video6,Video7,Video8].map((item, index) => (
           <SwiperSlide key={index} className="flex items-start justify-center">
-                        <div className="w-[240px] h-[450px]  shadow-md rounded-md">
+                        <div className="w-[240px] max-[570px]:w-full h-[450px]  shadow-md rounded-md">
                             <video
                                 controls
                                 autoPlay

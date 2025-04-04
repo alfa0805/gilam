@@ -55,3 +55,11 @@
         background-position: 0 0;
     }
 }
+
+.swiper-pagination{
+    position: relative !important;
+    margin-top: 10px;
+}
+.swiper-pagination-bullet-active {
+    background-color: #f59e0b !important;
+}

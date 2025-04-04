@@ -17,7 +17,7 @@ function Home() {
     }, []);
   return (
     <div id="home" className="">
-      <div className="homebg max-w-[1180px] pt-[120px] pb-[30px] px-3 mx-auto flex items-center justify-between">
+      <div className="homebg max-w-[1180px] pt-[110px] pb-[30px] px-3 mx-auto flex items-center justify-between">
         <div data-aos="fade-right" className="w-[50%] max-[770px]:w-full max-[770px]:px-5">
           <h1 className="w-[90%] text-[80px] leading-[70px] font-bold font-archivo text-[#FEB640] max-[770px]:leading-[50px] max-[770px]:text-5xl max-[570px]:text-4xl max-[770px]:text-center max-[770px]:text-white">{t("home.title")}</h1>
           <p className="w-[73%] pt-[80px] leading-[25px] text-2xl font-medium max-[770px]:pt-[25px] max-[770px]:text-white">{t("home.text")}</p>

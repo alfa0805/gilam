@@ -111,7 +111,7 @@ function Header() {
             </li>
           </ul>
           <a href="#aloqa">
-            <button className="border-2 mt-5 border-[#FEB640]  cursor-pointer hover:bg-amber-50 text-white hover:text-[#FEB640] px-9 py-[4px] bg-[#FEB640] rounded-4xl text-xl font-bold">
+            <button onClick={()=>menyu(false)} className="border-2 mt-5 border-[#FEB640]  cursor-pointer hover:bg-amber-50 text-white hover:text-[#FEB640] px-9 py-[4px] bg-[#FEB640] rounded-4xl text-xl font-bold">
               {t("header.Contact")}
             </button>
           </a>
